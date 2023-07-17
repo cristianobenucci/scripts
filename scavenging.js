@@ -69,5 +69,8 @@ function fill(unit, number){
 	field.trigger('change');
 	field.blur();
 }
-var button = document.querySelector(`#scavenge_screen > div > div.options-container > div:nth-child(${unlocked_levels.length}) > div.status-specific > div > div.action-container > a.btn.btn-default.free_send_button`);
+setTimeout(function() {
+  var button = document.querySelector(`#scavenge_screen > div > div.options-container > div:nth-child(${unlocked_levels.length}) > div.status-specific > div > div.action-container > a.btn.btn-default.free_send_button`);
 button.click();
+}, 700); 
+
