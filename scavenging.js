@@ -75,10 +75,6 @@ setTimeout(function() {
 button.click();
 }, Math.floor((Math.random() * 600) + 800)); 
 }
-var docc=document;
-url=docc.URL;
-var lvls = docc.getElementsByClassName('btn btn-default free_send_button');
-for(let i = 0; i < lvls.length; i++){
 scaveng();
-}
+scaveng();
 
