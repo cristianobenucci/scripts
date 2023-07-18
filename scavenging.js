@@ -1,3 +1,4 @@
+function scaveng(){
 var how_long = 5;
 var leftovers = {
 	0: 0,
@@ -73,4 +74,11 @@ setTimeout(function() {
   var button = document.querySelector(`#scavenge_screen > div > div.options-container > div:nth-child(${unlocked_levels.length}) > div.status-specific > div > div.action-container > a.btn.btn-default.free_send_button`);
 button.click();
 }, Math.floor((Math.random() * 600) + 800)); 
+}
+var docc=document;
+url=docc.URL;
+var lvls = docc.getElementsByClassName('btn btn-default free_send_button');
+for(let i = 0; i < lvls.length; i++){
+scaveng();
+}
 
