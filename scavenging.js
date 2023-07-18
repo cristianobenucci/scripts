@@ -75,6 +75,7 @@ setTimeout(function() {
 button.click();
 }, Math.floor((Math.random() * 600) + 800)); 
 }
+for(let i = 0; i < 4; i++){
 scaveng();
-scaveng();
+}
 
