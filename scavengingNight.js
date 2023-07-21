@@ -1,3 +1,4 @@
+function scaveng(){
 var how_long = 11;
 var leftovers = {
 	0: 0,
@@ -5,17 +6,20 @@ var leftovers = {
 	2: 0,
 	3: 0,
 	4: 0,
-    5: 0,
-    6: 0,
+  5: 0,
+  6: 0,
 };
+var doc=document;
+url=doc.URL;
+var unlocked_levels = doc.getElementsByClassName('btn btn-default free_send_button');
+if(unlocked_levels.length == 0)
+return;
+else{
 if(document.querySelector("#scavenge_screen > div > div.candidate-squad-container > table > tbody > tr:nth-child(2) > td:nth-child(4) > input").name == 'light')
 var archers = false;
 else
 var archers = true;
 var hours = [550,1870,3300,4800,6340,7930,9540,11190,12860,14550,16260,17990,19730,21500,23270,25060];
-var doc=document;
-url=doc.URL;
-var unlocked_levels = doc.getElementsByClassName('btn btn-default free_send_button');
 var units = {
     0: 'spear',
     1: 'sword',
@@ -70,6 +74,23 @@ function fill(unit, number){
 	field.blur();
 }
 setTimeout(function() {
+  var doc=document;
+  url=doc.URL;
+  var unlocked_levels = doc.getElementsByClassName('btn btn-default free_send_button');
+  if(unlocked_levels.length == 0)
+  return;
+  else{
   var button = document.querySelector(`#scavenge_screen > div > div.options-container > div:nth-child(${unlocked_levels.length}) > div.status-specific > div > div.action-container > a.btn.btn-default.free_send_button`);
 button.click();
-}, Math.floor((Math.random() * 100) + 200)); 
+  }
+}, Math.floor((Math.random() * 200) + 200));
+}
+}
+var doc=document;
+url=doc.URL;
+var unlocked_levels = doc.getElementsByClassName('btn btn-default free_send_button');
+if(unlocked_levels.length == 0)
+console.log(":)");
+else{
+setInterval(scaveng,Math.floor((Math.random() * 200) + 800));
+}
