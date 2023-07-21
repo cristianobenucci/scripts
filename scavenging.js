@@ -12,23 +12,39 @@ var leftovers = {
 var doc=document;
 url=doc.URL;
 var unlocked_levels = doc.getElementsByClassName('btn btn-default free_send_button');
-if(unlocked_levels.length == 0)
-return;
+var units = {
+  0: 'spear',
+  1: 'sword',
+  2: 'axe',
+  3: 'archer',
+  4: 'light',
+  5: 'marcher',
+  6: 'heavy'
+};
+if(document.querySelector("#scavenge_screen > div > div.candidate-squad-container > table > tbody > tr:nth-child(2) > td:nth-child(4) > input").name == 'light')
+var archers = false;
+else
+var archers = true;
+var unitss_available = [0,0,0,0,0,0,0];
+var allUnits = 0;
+for(let j = 0; j < 7; j++){
+    if(archers == false)
+    if(j == 3 | j == 5)
+    continue;
+    let field = $('[name='+units[j]+']');
+    let available = Number(field[0].parentNode.children[1].innerText.match(/\d+/)[0]);
+    unitss_available[j] = available - leftovers[j] > 0 ? available - leftovers[j] : 0;
+    allUnits += unitss_available[j];
+}
+if(unlocked_levels.length == 0 || allUnits < 10)
+console.log(":)");
 else{
 if(document.querySelector("#scavenge_screen > div > div.candidate-squad-container > table > tbody > tr:nth-child(2) > td:nth-child(4) > input").name == 'light')
 var archers = false;
 else
 var archers = true;
 var hours = [550,1870,3300,4800,6340,7930,9540,11190,12860,14550,16260,17990,19730,21500,23270,25060];
-var units = {
-    0: 'spear',
-    1: 'sword',
-    2: 'axe',
-    3: 'archer',
-    4: 'light',
-    5: 'marcher',
-    6: 'heavy'
-};
+
 var units_available = [0,0,0,0,0,0,0];
 for(let j = 0; j < 7; j++){
     if(archers == false)
