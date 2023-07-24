@@ -1,4 +1,4 @@
-var how_long = 5;
+var how_long = 6;
 var leftovers = {
 	0: 100,
 	1: 100,
