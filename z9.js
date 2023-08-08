@@ -37,10 +37,8 @@ function scaveng(){
       allUnits += unitss_available[j];
   }
   if(document.querySelector('#menu_row2_village > a').text !== 'NaN'){
-  if(unlocked_levels.length == 0 || allUnits < 10){
-  console.log(":)");
+  if(unlocked_levels.length == 0 || allUnits < 10)
   document.querySelector('.arrowRight').click();
-  }
   else{
   if(document.querySelector("#scavenge_screen > div > div.candidate-squad-container > table > tbody > tr:nth-child(2) > td:nth-child(4) > input").name == 'light')
   var archers = false;
@@ -113,10 +111,8 @@ function scaveng(){
   url=doc.URL;
   var unlocked_levels = doc.getElementsByClassName('btn btn-default free_send_button');
   if(document.querySelector('#menu_row2_village > a').text !== 'NaN'){
-  if(unlocked_levels.length == 0){
-  console.log(":)");
+  if(unlocked_levels.length == 0)
   document.querySelector('.arrowRight').click();
-  }
   else{
   setInterval(scaveng,Math.floor((Math.random() * 200) + 400));
   }
