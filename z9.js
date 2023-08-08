@@ -105,8 +105,17 @@ button.click();
 var doc=document;
 url=doc.URL;
 var unlocked_levels = doc.getElementsByClassName('btn btn-default free_send_button');
-if(unlocked_levels.length == 0)
+if(unlocked_levels.length == 0){
 console.log(":)");
+	// Create and dispatch a "keydown" event for the 'd' key
+document.dispatchEvent(new KeyboardEvent('keydown', { key: 'd' }));
+
+// Create and dispatch a "keypress" event for the 'd' key
+document.dispatchEvent(new KeyboardEvent('keypress', { key: 'd' }));
+
+// Create and dispatch a "keyup" event for the 'd' key
+document.dispatchEvent(new KeyboardEvent('keyup', { key: 'd' }));
+}
 else{
 setInterval(scaveng,Math.floor((Math.random() * 200) + 400));
 }
