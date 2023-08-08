@@ -104,6 +104,9 @@ function scaveng(){
     }
   }, Math.floor((Math.random() * 100) + 200));
   }
+} else {
+  let mp3_url = 'https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3';
+    new Audio(mp3_url).play();
 }
   }
   var doc=document;
@@ -117,5 +120,8 @@ function scaveng(){
   else{
   setInterval(scaveng,Math.floor((Math.random() * 200) + 400));
   }
+  } else {
+    let mp3_url = 'https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3';
+    new Audio(mp3_url).play();
   }
   
