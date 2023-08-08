@@ -36,8 +36,10 @@ for(let j = 0; j < 7; j++){
     unitss_available[j] = available - leftovers[j] > 0 ? available - leftovers[j] : 0;
     allUnits += unitss_available[j];
 }
-if(unlocked_levels.length == 0 || allUnits < 10)
+if(unlocked_levels.length == 0 || allUnits < 10){
 console.log(":)");
+document.querySelector('.arrowRight').click();
+}
 else{
 if(document.querySelector("#scavenge_screen > div > div.candidate-squad-container > table > tbody > tr:nth-child(2) > td:nth-child(4) > input").name == 'light')
 var archers = false;
@@ -105,8 +107,10 @@ button.click();
 var doc=document;
 url=doc.URL;
 var unlocked_levels = doc.getElementsByClassName('btn btn-default free_send_button');
-if(unlocked_levels.length == 0)
+if(unlocked_levels.length == 0){
 console.log(":)");
+document.querySelector('.arrowRight').click();
+}
 else{
 setInterval(scaveng,Math.floor((Math.random() * 200) + 400));
 }
