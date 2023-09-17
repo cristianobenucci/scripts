@@ -1,13 +1,13 @@
 function scaveng(){
   var how_long = 10;
   var leftovers = {
-    0: 9999,
-    1: 9999,
+    0: 0,
+    1: 0,
     2: 0,
     3: 0,
     4: 0,
     5: 0,
-    6: 9999,
+    6: 0,
   };
   var doc=document;
   url=doc.URL;
