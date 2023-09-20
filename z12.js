@@ -110,7 +110,7 @@ function scaveng(){
   var doc=document;
   url=doc.URL;
   var unlocked_levels = doc.getElementsByClassName('btn btn-default free_send_button');
-  if(document.querySelector('#menu_row2_village > a').text !== 'NaN'){
+  if(document.querySelector('#menu_row2_village > a').text !== 'NaN' && document.querySelector('#menu_row2_village > a').text !== 'NBA'){
   if(unlocked_levels.length == 0)
   document.querySelector('.arrowRight').click();
   else{
