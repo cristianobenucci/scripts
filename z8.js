@@ -1,5 +1,5 @@
 function scaveng(){
-  var how_long = 2;
+  var how_long = 8;
   var leftovers = {
     0: 0,
     1: 0,
