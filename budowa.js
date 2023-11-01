@@ -61,4 +61,4 @@ console.log(order[lastBuilding]);
 var whatToBuild = order[lastBuilding].replace(/[0-9]/g,'');
 console.log(whatToBuild);
 
-document.querySelector(`a[data-building="${whatToBuild}"]`).click();
+document.querySelector(`a.btn-build[data-building="${whatToBuild}"]`).click();
