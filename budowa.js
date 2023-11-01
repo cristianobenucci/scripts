@@ -1,4 +1,4 @@
-const buildingNames = [
+var buildingNames = [
     "main",
     "barracks",
     "stable",
