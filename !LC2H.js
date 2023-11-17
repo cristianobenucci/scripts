@@ -41,7 +41,7 @@ function scaveng(){
   if(document.querySelector('.arrowRight')!=null)
   document.querySelector('.arrowRight').click();
   else
-  document.querySelector('td.selected').click();
+  document.querySelector('td.selected a').click();
   else{
   if(document.querySelector("#scavenge_screen > div > div.candidate-squad-container > table > tbody > tr:nth-child(2) > td:nth-child(4) > input").name == 'light')
   var archers = false;
