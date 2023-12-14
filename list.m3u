@@ -1,0 +1,63 @@
+#EXTM3U
+#EXTINF:0 type="stream" channelId="-1", CANAL+ PREMIUM HD
+http://192.168.1.28:8001/1:0:1:32DC:190:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="4390", CANAL+ NOW
+http://192.168.1.28:8001/1:0:1:32CD:190:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="1350", CANAL+ SPORT HD
+http://192.168.1.28:8001/1:0:1:32DE:190:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="-1", CANAL+ SPORT 2 HD
+http://192.168.1.28:8001/1:0:1:13EE:5DC:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="4388", CANAL+ SPORT 3 HD
+http://192.168.1.28:8001/1:0:1:3AA0:514:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="4389", CANAL+ SPORT 4 HD
+http://192.168.1.28:8001/1:0:1:3AA1:514:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="-1", CANAL+ SPORT 5 HD
+http://192.168.1.28:8001/1:0:1:3AB9:514:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3194", Eleven Sports 1 HD
+http://192.168.1.28:8001/1:0:1:13F3:5DC:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3196", Eleven Sports 2 HD
+http://192.168.1.28:8001/1:0:1:13F5:5DC:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3195", Eleven Sports 3 HD
+http://192.168.1.28:8001/1:0:1:13F8:5DC:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3657", ELEVEN SPORTS 4 HD
+http://192.168.1.28:8001/1:0:1:32CE:190:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3262", Polsat Sport HD
+http://192.168.1.28:8001/1:0:1:C1D:1E78:71:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3263", Polsat Sport News HD
+http://192.168.1.28:8001/1:0:1:2913:1EDC:71:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="2376", Polsat Sport Extra HD
+http://192.168.1.28:8001/1:0:1:C24:1E78:71:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="4394", Polsat Sport Premium 1
+http://192.168.1.28:8001/1:0:1:709:32C8:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="4395", Polsat Sport Premium 2
+http://192.168.1.28:8001/1:0:1:70A:32C8:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="-1", CANAL +1 HD
+http://192.168.1.28:8001/1:0:1:13ED:5DC:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3182", CANAL + Seriale
+http://192.168.1.28:8001/1:0:19:3782:44C:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="1191", Comedy Central HD
+http://192.168.1.28:8001/1:0:1:C:1964:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="1547", Cinemax 2 HD
+http://192.168.1.28:8001/1:0:1:C26:1E78:71:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="1326", Cinemax HD
+http://192.168.1.28:8001/1:0:1:3A9F:514:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3187", FilmBox Action
+http://192.168.1.28:8001/1:0:1:3D65:2C88:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3021", FilmBox Family
+http://192.168.1.28:8001/1:0:1:3D62:2C88:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="2926", FilmBox Extra HD
+http://192.168.1.28:8001/1:0:1:3D68:2C88:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="2927", Filmbox Premium HD
+http://192.168.1.28:8001/1:0:1:3D5D:2C88:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="3184", HBO 3 HD
+http://192.168.1.28:8001/1:0:1:13F9:5DC:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="935", HBO 2 HD
+http://192.168.1.28:8001/1:0:1:13F4:5DC:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="1330", HBO HD
+http://192.168.1.28:8001/1:0:1:290E:1EDC:71:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="2501", AMC
+http://192.168.1.28:8001/1:0:1:3AB7:514:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="177", FOX
+http://192.168.1.28:8001/1:0:1:C27:1E78:71:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
+#EXTINF:0 type="stream" channelId="2249", FOX COMEDY
+http://192.168.1.28:8001/1:0:1:C1F:1E78:71:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
