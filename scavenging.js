@@ -100,7 +100,7 @@ function scaveng(){
     var button = document.querySelector(`#scavenge_screen > div > div.options-container > div:nth-child(${unlocked_levels.length}) > div.status-specific > div > div.action-container > a.btn.btn-default.free_send_button`);
   button.click();
     }
-  }, Math.floor((Math.random() * 100) + 200));
+  }, Math.floor((Math.random() * 200) + 300));
   }
 } else {
   let mp3_url = 'https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3';
@@ -114,7 +114,7 @@ function scaveng(){
   if(unlocked_levels.length == 0)
   document.querySelector('.arrowRight').click();
   else{
-  setInterval(scaveng,Math.floor((Math.random() * 200) + 400));
+  setInterval(scaveng,Math.floor((Math.random() * 300) + 600));
   }
   } else {
     let mp3_url = 'https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3';
