@@ -1,7 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-name="CANAL+ PREMIUM HD" group-title="dekoder",CANAL+ PREMIUM HD
-http://192.168.1.28:8001/1:0:1:32DC:190:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
-#EXTINF:-1 tvg-name="CANAL+ NOW" group-title="dekoder",CANAL+ NOW
-http://192.168.1.28:8001/1:0:1:32CD:190:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
-#EXTINF:-1 tvg-name="CANAL+ SPORT HD" group-title="dekoder",CANAL+ SPORT HD
-http://192.168.1.28:8001/1:0:1:32DE:190:13E:820000:0:0:0:?bitrate=1500000?width=720?height=576?vcodec=h265?aspectratio=2?interlaced=0
